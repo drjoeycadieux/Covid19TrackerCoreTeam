@@ -1,0 +1,23 @@
+body,
+html {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header {
+	padding: 25px;
+	background-color: rgb(31, 41, 65);
+}
+header,
+h2 {
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+.container,
+.row,
+.col {
+	width: 600px;
+	display: flex;
+	margin: 1px 5px;
+}
